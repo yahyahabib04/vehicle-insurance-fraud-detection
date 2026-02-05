@@ -10,5 +10,20 @@ An industry-relevant machine learning project that flags potentially fraudulent 
   - SMOTE + cost-sensitive learning (sample weights)
   - Threshold analysis (top-k% alerts), cost scenario analysis, and standard evaluation metrics.
 
+## Interim results (current models)
+The current interim submission includes three modelling setups:
+- Baseline (no SMOTE)
+- SMOTE
+- SMOTE + cost-sensitive learning (sample weights)
+
+## Project objectives (next steps)
+- Compare additional imbalance methods (e.g., ADASYN, BorderlineSMOTE) alongside SMOTE.
+- Expand model comparison (e.g., CatBoost / LightGBM).
+- Improve evaluation realism (temporal validation + cost/capacity-aware thresholding).
+- Add interpretability (e.g., SHAP-style explanations) and basic fairness checks.
+
 ## Dataset
 - Link: **https://www.kaggle.com/datasets/shivamb/vehicle-claim-fraud-detection**
+
+## Author
+Yahya Habib
